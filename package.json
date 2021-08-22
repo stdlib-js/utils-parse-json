@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-parse-json",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Parse a string as JSON.",
   "license": "Apache-2.0",
   "author": {
