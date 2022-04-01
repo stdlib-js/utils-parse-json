@@ -1,0 +1,36 @@
+{
+  "name": "@stdlib/utils-parse-json",
+  "version": "0.0.0",
+  "description": "Parse a string as JSON.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-parse-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "json",
+    "parse",
+    "try",
+    "trap",
+    "catch",
+    "json.parse",
+    "string",
+    "str"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
