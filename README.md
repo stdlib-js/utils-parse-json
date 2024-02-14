@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@deno/mod.js';
+import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@v0.2.0-deno/mod.js';
 ```
 
 #### parseJSON( str\[, reviver] )
@@ -127,7 +127,7 @@ var out = parseJSON( str, reviver );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@deno/mod.js';
+import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@v0.2.0-deno/mod.js';
 
 var out;
 
