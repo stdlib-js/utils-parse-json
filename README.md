@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@esm/index.mjs';
+import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@v0.2.1-esm/index.mjs';
 ```
 
 #### parseJSON( str\[, reviver] )
@@ -132,7 +132,7 @@ var out = parseJSON( str, reviver );
 <body>
 <script type="module">
 
-import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@esm/index.mjs';
+import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@v0.2.1-esm/index.mjs';
 
 var out;
 
