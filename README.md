@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+parseJSON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-parse-json/tags). For example,
+
+```javascript
 parseJSON = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@v0.2.3-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var parseJSON = require( 'path/to/vendor/umd/utils-parse-json/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -154,7 +159,7 @@ var out = parseJSON( str, reviver );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
